@@ -25,38 +25,21 @@ public static void main (String args []) {
 
            }
 		System.out.println("/////////////////////////////////////// ip two");
-/*
-		System.out.println("/////////////////////////////////////// ip two");
-         int p=ip.indexOf(".");
-          String s = ip.substring(0,posiotion == -1 ? ip.length() : posiotion );
-            if(!s.equals(""))
-				System.out.println(s);
-
-			if(posiotion == -1) 
-				break;
-
-			ip = ip.substring(posiotion+1 , ip.length());*/
 
 
-while (ip.length() > 0) {
-			
-			int posiotion = ip.indexOf(".");
-			
+
+           for(int i=0; i<=args.length;i++){
+			int place = ip.indexOf(".");
+             }
+           System.out.println(place);
 			
 
-			String s = ip.substring(0,posiotion == -1 ? ip.length() : posiotion );
 			
-			if(!s.equals(""))
-				System.out.println(s);
+	}		
 
-			if(posiotion == -1) 
-				break;
+	
 
-			ip = ip.substring(posiotion+1 , ip.length());
-		}
-
-          }
-
+          
 //args valid
 else{
 				System.out.println("ip error");
