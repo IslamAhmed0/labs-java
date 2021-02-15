@@ -11,7 +11,7 @@ public class start
 		for (int i=0; i<n; i++)
 		{
 
-      for (int j=n-i; j>1; j--)
+        for (int j=n-i; j>1; j--)
             {
 
                 System.out.print(" ");
@@ -24,7 +24,7 @@ public class start
             }
 
 
-for (int j=n-i; j>1; j--)
+            for (int j=n-i; j>1; j--)
             {
 
                 System.out.print(" ");
@@ -53,12 +53,23 @@ for (int j=n-i; j>1; j--)
 
 	public static void main(String args[])
 	{
-
-
+       if(args.length==1){
+      
            int n=Integer.parseInt(args[0]);
-
-
 		pyramids(n);
+
+
+   }
+else{
+
+				System.out.print("please enter number\n");
+}
+
+
+
+
+
+
 
 	}
 }
